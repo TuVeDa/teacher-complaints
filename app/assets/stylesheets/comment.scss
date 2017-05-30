@@ -8,25 +8,9 @@
   text-align: left;
 }
 .commentArea {
-  height: 250px;
+  height: 225px;
   margin-bottom: 1em;
-}
-.commentSumbit {
-  height: 3em;
-  border-radius: 1em;
-  background-color: $gold;
-  border: none;
-  color: $maroon;
-  font-weight: bold;
-  &:hover {
-    color: white;
-    background-color: darkgrey;
-  }
-  &:active {
-    color: $gold;
-    background-color: $maroon;
-  }
-
+  padding: 1em;
 }
 
 #commentLogo {
@@ -43,13 +27,14 @@
 }
 
 #commentInfo {
-  margin: 10px 0;
+  margin: 1em 0;
 }
 
 #commentForm {
-  margin: 0 15px;
+  margin: 0 1em;
+  margin-bottom: 1em;
   row {
-    margin: 0 15px;
+    margin: 0 1em;
   }
 }
 
