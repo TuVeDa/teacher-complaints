@@ -1,3 +1,5 @@
+@import 'variables';
+
 .main-container {
   text-align: center
 }
@@ -11,6 +13,20 @@
 }
 .commentSumbit {
   height: 3em;
+  border-radius: 1em;
+  background-color: $gold;
+  border: none;
+  color: $maroon;
+  font-weight: bold;
+  &:hover {
+    color: white;
+    background-color: darkgrey;
+  }
+  &:active {
+    color: $gold;
+    background-color: $maroon;
+  }
+
 }
 
 #commentLogo {
@@ -19,13 +35,6 @@
   width: auto;
   height: auto;
   padding: 0;
-}
-
-#commentHeader {
-  margin: 10px 0 10px 0;
-  h1 {
-    margin: 10px 0 10px 0;
-  }
 }
 
 #commentText {
